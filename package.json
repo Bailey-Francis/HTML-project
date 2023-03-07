@@ -1,0 +1,25 @@
+{
+  "name": "html-project",
+  "version": "1.0.0",
+  "description": "Basic HTML testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "watch": "tsc-watch",
+    "bundle": "esbuild src/app.ts --bundle --minify --outfile=out/out.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bailey-Francis/HTML-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bailey-Francis/HTML-project/issues"
+  },
+  "homepage": "https://github.com/Bailey-Francis/HTML-project#readme",
+  "dependencies": {
+    "esbuild": "0.17.10",
+    "express": "^4.18.2"
+  }
+}
